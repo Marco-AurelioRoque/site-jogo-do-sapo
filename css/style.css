@@ -1,8 +1,62 @@
 body{
-    background-color: blue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background: -webkit-linear-gradient(left, #6acfff, #006eb9);
+    background: -moz-linear-gradient(left, #6acfff, #006eb9);
+    background: -ms-linear-gradient(left, #6acfff, #006eb9);
+    background: -o-linear-gradient(left, #6acfff, #006eb9);
+    background: linear-gradient(to right, #6acfff, #006eb9);
+}
+/*Header*/
+header{
+    background-color: rgb(111, 196, 0);
+    padding: 10px;
+    width: 100vw;
 }
 
+.nav-header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.nav-header ul a li:hover{
+    color: white;
+}
+
+.nav-header ul a{
+    text-decoration: none;
+    list-style: none;
+}
+
+/*playnow*/
+.playnow{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(151, 151, 247);
+    width: 130px;
+    height: 45px;
+    text-align: center;
+}
+.playnow:hover{
+    background-color: rgb(110, 110, 236);
+    transition: 800ms;
+}
+
+/*Sapo img*/
+.sapoImg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Slider*/
 .slider{
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     
@@ -33,3 +87,89 @@ body{
 .slider img.selected{
     opacity: 1;
 }
+
+/*o jogo*/
+.jogo{
+    background-color: rgb(0, 255, 191);
+    border: 2px solid rgb(9, 221, 9);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: 20px;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+
+/*Noticias recenters*/
+.noticiasRecentes{
+    background-color: rgb(0, 255, 191);
+    border: 2px solid rgb(9, 221, 9);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: 10px;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+/*Suporte*/
+.suporte{
+    background-color: rgb(0, 255, 191);
+    border: 2px solid rgb(9, 221, 9);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26vw;
+    padding: 10px;
+    width: 50vw;
+    height: 60vh;
+    border-radius: 50%;
+}
+
+.nome{
+    width: 250px;
+    height: 30px;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 30px;
+}
+.msg{
+    width: 250px;
+    height: 30px;
+}
+
+.btnSubmit{
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(19, 150, 19);
+    color: white;
+}
+
+/*Footer*/
+.footer{
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    background-color: darkblue;
+}
+
+/*Video*/
+.videoSapo{
+    width: 100%;
+    height: 370px;
+    margin-top: 50px;
+}
+
