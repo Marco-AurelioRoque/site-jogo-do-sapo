@@ -56,6 +56,7 @@ header{
     position: absolute;
     width: 100vw;
     height: 100vh;
+    border-bottom: 5px solid black;
 }
 
 /*Slider*/
@@ -95,7 +96,7 @@ header{
 /*o jogo*/
 .jogo{
     background-color: rgb(0, 255, 191);
-    border: 2px solid rgb(9, 221, 9);
+    border: 2px solid rgb(8, 170, 8);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -114,7 +115,7 @@ h2{
 /*Noticias recenters*/
 .noticiasRecentes{
     background-color: rgb(0, 255, 191);
-    border: 2px solid rgb(9, 221, 9);
+    border: 2px solid rgb(8, 170, 8);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +129,7 @@ h2{
 /*Suporte*/
 .suporte{
     background-color: rgb(0, 255, 191);
-    border: 2px solid rgb(9, 221, 9);
+    border: 2px solid rgb(8, 170, 8);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -160,6 +161,11 @@ h2{
     height: 30px;
     background-color: rgb(19, 150, 19);
     color: white;
+    cursor: pointer;
+}
+.btnSubmit:hover{
+    background-color: rgb(9, 126, 9);
+    transition: 800ms;
 }
 
 /*Footer*/
@@ -184,6 +190,11 @@ h2{
     color: white;
     width: 130px;
     height: 45px;
+    cursor: pointer;
+}
+.videoSapo:hover{
+    background-color: rgb(194, 6, 6);
+    transition: 800ms;
 }
 
 /*Imagem gotas*/
