@@ -2,7 +2,7 @@
 
  ### **Sobre o projeto**
 
-Projeto feito para pratica de estudos, um site de divulgação para jogo
+Projeto feito para pratica de estudos, um site de divulgação para jogo. Usadas varias funções de loops.
 
 ### **Lista de tarefas**
 
